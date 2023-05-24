@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www.js"
+    "start": "node ./bin/www.js",
+    "format:fix": "prettier --write ."
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -11,6 +12,7 @@
     "express": "^4.18.2",
     "morgan": "^1.10.0",
     "pg": "^8.11.0",
+    "prettier": "^2.8.8",
     "sequelize": "^6.31.1"
   }
 }
