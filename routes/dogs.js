@@ -3,6 +3,7 @@ const dogsCtrl = require('../controllers/dogs.js')
 
 // POST
 router.post('/', dogsCtrl.create)
+router.post('/:dogId/feedings', dogsCtrl.addFeeding)
 
 // GET
 router.get('/', dogsCtrl.index)
